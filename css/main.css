@@ -66,6 +66,24 @@ nav .profile-link a {
       border-bottom: 1px solid black;
  }
 
+main {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-container h1 {
+    font-size: 32px;
+    color: #be9f9c;
+    justify-content: center;
+}
+
 
 
 
