@@ -62,27 +62,29 @@ nav .profile-link {
      margin-right: 50px;
  }
 nav .profile-link a {
-      color: black;
-      border-bottom: 1px solid black;
+      color: whitesmoke;
+      border-bottom: 1px solid white;
  }
 
 main {
-    background-color: white;
     height: 100%;
-    width: 100%;
+    background-image: url(../assets/img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .main-container {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.main-container h1 {
-    font-size: 32px;
-    color: #be9f9c;
+    width: auto;
+    display: flex;
     justify-content: center;
 }
+
+.main-container .title {
+    color: white;
+    font-size: 16px;
+}
+
+
 
 
 
